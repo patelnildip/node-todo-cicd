@@ -3,7 +3,7 @@
 <html>
 
     <head>
-        <title>1256 Demo todo list</title>
+        <title>Demo todo list</title>
         <style>
             a {
                 text-decoration: none;
@@ -14,7 +14,7 @@
     </head>
 
     <body>
-        <h1>DevOps Zero To Hero is just Amazing, Awesome and I will attend Live sessions BOOM</h1>
+        <h1>DevOps Zero To Hero is just Amazing, Awesome and I will attend Live sessions </h1>
         <ul>
             <% todolist.forEach(function(todo, index) { %>
             <li>
@@ -27,7 +27,7 @@
 
         <form action="/todo/add/" method="post">
             <p>
-                <label for="newtodo">What shoud I do this weekend?</label>
+                <label for="newtodo">What shoud I do this week?</label>
                 <input type="text" name="newtodo" id="newtodo" autofocus />
                 <input type="submit" value="Add" />
             </p>
